@@ -28,4 +28,4 @@ $(RELEASE_EXEC): $(SOURCE)
 
 # Цель для очистки всех сгенерированных файлов
 clean:
- rm -f $(RELEASE_EXEC) $(DEBUG_EXEC)
+	rm -f $(RELEASE_EXEC) $(DEBUG_EXEC)
